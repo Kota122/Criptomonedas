@@ -4,7 +4,7 @@ $(document).ready(function(){
         if ($(this).scrollTop() > 300) {
             $('#boton').fadeIn();
         } else {
-            $('#boton').fadeOut();
+            $('#boton').fadeOut() < 300;
         }
     });
 
