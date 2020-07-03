@@ -91,7 +91,7 @@ table{
     background: rgba(90, 214, 183, 0.521);
     z-index: 1000;
     margin-bottom: -4%;
-    transition: 1s;
+    transition: 1s !important;
 }
 
     #boton i {
