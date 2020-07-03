@@ -20,7 +20,7 @@ body {
 
 #hero {
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 #footer{
@@ -96,4 +96,10 @@ table{
 
     #boton i {
         color: white;
+    }
+
+    #ih{
+        background-color: rgba(12, 12, 12, 0.342);
+        border-radius: 9px;
+        margin: auto;
     }
