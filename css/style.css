@@ -1,0 +1,99 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    text-align: center;
+
+}
+
+.navbar {
+    background-color: rgb(11, 0, 54);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 05);
+    min-height: 10px;
+ 
+}
+
+.nav-link {color: rgb(67, 222, 250);}
+.nav-link:hover { color: rgba(252, 236, 15, 0.918);}
+
+.navbar-toggler { font-size: 40px;}
+.navbar-toggler:focus {outline: none;}
+
+#hero {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+#footer{
+    color: white;
+    text-align: center;
+    width         : auto;
+    background    : black;
+    margin        : auto auto auto;
+    border        : solid rgba(0, 0, 0, 0.205);
+    display: ruby-base;
+    
+}
+
+#Bit{
+    color: rgb(255, 255, 255);
+    display: ruby-base;
+
+}
+table{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer a{
+    color: white;
+    text-decoration: none;
+}
+#footer .list-inline .list-inline-item{
+    padding: auto 1px;
+}
+
+
+@media (max-width:600px) {
+    .footer-menu{
+        display: block !important;
+        padding: 20px 0 !important;
+        font-size: 20px;
+    }
+    #clf{
+        width: 100%;
+    }
+    #spt{
+        width: 100%;
+    }
+    #play{
+        width: 100%;
+    }
+    #bane{
+        width: 100%;
+    }
+}
+
+#pb1{
+    margin: auto;
+    width: 100%;
+}
+
+/* ESTILOS  DEL BOTON */
+
+#boton {
+    position:fixed;
+    right:5px;
+    bottom:50px;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    background: rgba(90, 214, 183, 0.521);
+    z-index: 1000;
+    margin-bottom: -4%;
+    transition: 1s;
+}
+
+    #boton i {
+        color: white;
+    }
